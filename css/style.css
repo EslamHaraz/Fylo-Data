@@ -97,7 +97,7 @@
     border-width: 27px;
     border-style: solid;
     bottom: -35px;
-    right: -25px;
+    right: -27px;
 }
 
 .out-content span:nth-child(1) {
@@ -162,9 +162,10 @@ p span {
         background-position: top;
         height: 650px;
     }
-    
+    .content1 {
+        width:200px;
     .content2 {
-        width: 300px;
+        width: 250px;
     }
     .linear {
         width: 200px;
@@ -176,7 +177,7 @@ p span {
         left: 25%;
         top: 110px;
     }
-    p::after {
+    .out-content p::after {
         display: none;
     }
     }
